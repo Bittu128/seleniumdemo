@@ -1,0 +1,5 @@
+Common\Runner.class
+StepDefinition\loginPagestep.class
+PageFactory\LogInPage.class
+StepDefinition\ResetCredentials.class
+StepDefinition\drivers.class

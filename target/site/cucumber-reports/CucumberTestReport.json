@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verification of Reset button",
+        "description": "",
+        "id": "reset-functionality-on-login-page-of-application;verification-of-reset-button",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13465205013,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Open the Firefox and launch the application",
+            "match": {
+              "location": "ResetCredentials.open_the_Firefox_and_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2597549335,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Enter the Username and Password",
+            "match": {
+              "location": "ResetCredentials.enter_the_Username_and_Password(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "username",
+                  "password"
+                ],
+                "line": 11
+              },
+              {
+                "cells": [
+                  "User1",
+                  "password1"
+                ],
+                "line": 13
+              },
+              {
+                "cells": [
+                  "User2",
+                  "password2"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "User3",
+                  "password3"
+                ],
+                "line": 17
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13851383,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Reset the credential",
+            "match": {
+              "location": "ResetCredentials.Reset_the_credential()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Reset functionality on login page of Application",
+    "description": "",
+    "id": "reset-functionality-on-login-page-of-application",
+    "keyword": "Feature",
+    "uri": "Features/MyTest2.feature"
+  }
+]
